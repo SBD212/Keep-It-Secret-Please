@@ -1,0 +1,1 @@
+A whisper app mockup which utilizes oauth 2.0, using gmail profile.
