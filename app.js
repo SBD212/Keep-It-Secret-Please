@@ -46,7 +46,7 @@ passport.use(new GoogleStrategy({
 
 
 mongoose.connect(
-  "mongodb+srv://jdawan:SXsximWXl3bQ8EXY@cluster0.j4htk.mongodb.net/?retryWrites=true&w=majority"
+  `mongodb+srv://jdawan:${process.env.MONGODB_KEY}@cluster0.j4htk.mongodb.net/?retryWrites=true&w=majority`
 );
 
 const userSchema =  new mongoose.Schema({
